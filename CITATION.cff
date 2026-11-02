@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the manuscript and the data deposit listed under references."
+title: "Reproducibility code for: When Model Choice Changes with the Seed: Decision-State Uncertainty and Break-Even Costs in Autoencoder Intrusion Detection"
+type: software
+version: 1.0.0
+license: MIT
+authors:
+  - family-names: Kamara
+    given-names: Joseph Marco
+    orcid: "https://orcid.org/0009-0009-2455-1222"
+    affiliation: "Pan African University Institute for Basic Sciences, Technology and Innovation (PAUSTI)"
+  - family-names: Kaburu
+    given-names: Dennis Mugambi
+    orcid: "https://orcid.org/0009-0005-6758-9440"
+    affiliation: "Jomo Kenyatta University of Agriculture and Technology"
+  - family-names: Kimwele
+    given-names: Michael W.
+    orcid: "https://orcid.org/0009-0009-9221-2441"
+    affiliation: "Jomo Kenyatta University of Agriculture and Technology"
+references:
+  - type: data
+    title: "Observation-level final-test predictions of autoencoder and denoising-autoencoder intrusion detectors on CICIDS2017 and UNSW-NB15 (Experiment 1 v2, known attacks)"
+    authors:
+      - family-names: Kamara
+        given-names: J. M.
+      - family-names: Kimwele
+        given-names: M.
+      - family-names: Kaburu
+        given-names: D. M.
+    publisher:
+      name: Zenodo
+    year: 2026
+    doi: 10.5281/zenodo.23559367
+    license: CC-BY-4.0

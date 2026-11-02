@@ -1,0 +1,11 @@
+dataset,seed,dTP,dFP,state,state_label,rho_star_exact,rho_star
+CICIDS2017,101,-4255,21,III,State III - AE dominance,,
+CICIDS2017,202,-667,153,III,State III - AE dominance,,
+CICIDS2017,303,-2230,37,III,State III - AE dominance,,
+CICIDS2017,404,-780,19,III,State III - AE dominance,,
+CICIDS2017,505,-2713,145,III,State III - AE dominance,,
+UNSW-NB15,101,217,171,II,State II - genuine trade-off,217/171,1.2690058479532165
+UNSW-NB15,202,1472,-136,I,State I - DAE dominance,,
+UNSW-NB15,303,385,60,II,State II - genuine trade-off,77/12,6.416666666666667
+UNSW-NB15,404,1541,353,II,State II - genuine trade-off,1541/353,4.36543909348442
+UNSW-NB15,505,637,7,II,State II - genuine trade-off,91,91.0

@@ -1,0 +1,1552 @@
+{
+ "description": "Values printed in Manuscript 2 that derive from the deposited final-test predictions. I transcribed each value from the manuscript text or tables, with the location where it is printed and the number of decimals at which it is printed. scripts/reproduce_all.py recomputes each value from the Parquet files and checks it against this list.",
+ "values": [
+  {
+   "key": "cic.n_rows",
+   "reported": 668562,
+   "where": "Section 3.5",
+   "kind": "exact"
+  },
+  {
+   "key": "cic.n_benign",
+   "reported": 340967,
+   "where": "Section 3.2; Table 4.1 caption",
+   "kind": "exact"
+  },
+  {
+   "key": "cic.n_attack",
+   "reported": 327595,
+   "where": "Section 3.2; Table 4.1 caption",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.n_rows",
+   "reported": 525584,
+   "where": "Section 3.5",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.n_benign",
+   "reported": 332814,
+   "where": "Section 3.2; Table 4.1 caption",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.n_attack",
+   "reported": 192770,
+   "where": "Section 3.2; Table 4.1 caption",
+   "kind": "exact"
+  },
+  {
+   "key": "cic.attack_prevalence",
+   "reported": 0.49,
+   "where": "Section 3.2",
+   "kind": "rounded",
+   "decimals": 3
+  },
+  {
+   "key": "unsw.attack_prevalence",
+   "reported": 0.367,
+   "where": "Section 3.2",
+   "kind": "rounded",
+   "decimals": 3
+  },
+  {
+   "key": "unsw.attack_prevalence",
+   "reported": 36.68,
+   "where": "Section 4.4",
+   "kind": "rounded",
+   "decimals": 2,
+   "scale": 100
+  },
+  {
+   "key": "cic.ae.MCC_mean",
+   "reported": 0.522889,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "cic.ae.MCC_sd",
+   "reported": 0.003799,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "cic.ae.Recall_mean",
+   "reported": 0.445567,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "cic.ae.Recall_sd",
+   "reported": 0.004949,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "cic.ae.PR-AUC_mean",
+   "reported": 0.861488,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "cic.ae.PR-AUC_sd",
+   "reported": 0.020525,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "cic.ae.FPR_mean",
+   "reported": 0.009902,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "cic.ae.FPR_sd",
+   "reported": 0.0002,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "cic.ae.FP_per_1000_benign_mean",
+   "reported": 9.902,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 3
+  },
+  {
+   "key": "cic.ae.mean_TP",
+   "reported": 145965.4,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 1
+  },
+  {
+   "key": "cic.ae.mean_FP",
+   "reported": 3376.2,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 1
+  },
+  {
+   "key": "cic.ae.mean_FN",
+   "reported": 181629.6,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 1
+  },
+  {
+   "key": "cic.dae.MCC_mean",
+   "reported": 0.517382,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "cic.dae.MCC_sd",
+   "reported": 0.001169,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "cic.dae.Recall_mean",
+   "reported": 0.439068,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "cic.dae.Recall_sd",
+   "reported": 0.00156,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "cic.dae.PR-AUC_mean",
+   "reported": 0.84853,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "cic.dae.PR-AUC_sd",
+   "reported": 0.018051,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "cic.dae.FPR_mean",
+   "reported": 0.010122,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "cic.dae.FPR_sd",
+   "reported": 0.000164,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "cic.dae.FP_per_1000_benign_mean",
+   "reported": 10.122,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 3
+  },
+  {
+   "key": "cic.dae.mean_TP",
+   "reported": 143836.4,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 1
+  },
+  {
+   "key": "cic.dae.mean_FP",
+   "reported": 3451.2,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 1
+  },
+  {
+   "key": "cic.dae.mean_FN",
+   "reported": 183758.6,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 1
+  },
+  {
+   "key": "unsw.ae.MCC_mean",
+   "reported": 0.904585,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "unsw.ae.MCC_sd",
+   "reported": 0.004759,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "unsw.ae.Recall_mean",
+   "reported": 0.895536,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "unsw.ae.Recall_sd",
+   "reported": 0.006439,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "unsw.ae.PR-AUC_mean",
+   "reported": 0.981355,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "unsw.ae.PR-AUC_sd",
+   "reported": 0.005547,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "unsw.ae.FPR_mean",
+   "reported": 0.009814,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "unsw.ae.FPR_sd",
+   "reported": 0.000317,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "unsw.ae.FP_per_1000_benign_mean",
+   "reported": 9.814,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 3
+  },
+  {
+   "key": "unsw.ae.mean_TP",
+   "reported": 172632.4,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 1
+  },
+  {
+   "key": "unsw.ae.mean_FP",
+   "reported": 3266.4,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 1
+  },
+  {
+   "key": "unsw.ae.mean_FN",
+   "reported": 20137.6,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 1
+  },
+  {
+   "key": "unsw.dae.MCC_mean",
+   "reported": 0.907611,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "unsw.dae.MCC_sd",
+   "reported": 0.004051,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "unsw.dae.Recall_mean",
+   "reported": 0.899947,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "unsw.dae.Recall_sd",
+   "reported": 0.005446,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "unsw.dae.PR-AUC_mean",
+   "reported": 0.975784,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "unsw.dae.PR-AUC_sd",
+   "reported": 0.003544,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "unsw.dae.FPR_mean",
+   "reported": 0.010088,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "unsw.dae.FPR_sd",
+   "reported": 0.000338,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "unsw.dae.FP_per_1000_benign_mean",
+   "reported": 10.088,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 3
+  },
+  {
+   "key": "unsw.dae.mean_TP",
+   "reported": 173482.8,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 1
+  },
+  {
+   "key": "unsw.dae.mean_FP",
+   "reported": 3357.4,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 1
+  },
+  {
+   "key": "unsw.dae.mean_FN",
+   "reported": 19287.2,
+   "where": "Table 4.1",
+   "kind": "rounded",
+   "decimals": 1
+  },
+  {
+   "key": "cic.diff.MCC.mean",
+   "reported": -0.005508,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "cic.diff.MCC.boot_lo",
+   "reported": -0.00817,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "cic.diff.MCC.boot_hi",
+   "reported": -0.002845,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "cic.diff.MCC.d_z",
+   "reported": -1.569,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 3
+  },
+  {
+   "key": "cic.diff.Recall.mean",
+   "reported": -0.006499,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "cic.diff.Recall.boot_lo",
+   "reported": -0.009926,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "cic.diff.Recall.boot_hi",
+   "reported": -0.003128,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "cic.diff.Recall.d_z",
+   "reported": -1.433,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 3
+  },
+  {
+   "key": "cic.diff.MCC.n_DAE_higher",
+   "reported": 0,
+   "where": "Section 4.1",
+   "kind": "exact"
+  },
+  {
+   "key": "cic.diff.Recall.n_DAE_higher",
+   "reported": 0,
+   "where": "Section 4.1",
+   "kind": "exact"
+  },
+  {
+   "key": "cic.diff.PR-AUC.mean",
+   "reported": -0.012958,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "cic.diff.PR-AUC.boot_lo",
+   "reported": -0.018171,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "cic.diff.PR-AUC.boot_hi",
+   "reported": -0.007694,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "cic.diff.PR-AUC.d_z",
+   "reported": -2.003,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 3
+  },
+  {
+   "key": "cic.diff.PR-AUC.n_DAE_higher",
+   "reported": 0,
+   "where": "Section 4.1",
+   "kind": "exact"
+  },
+  {
+   "key": "cic.mean_dTP",
+   "reported": -2129.0,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 1
+  },
+  {
+   "key": "cic.mean_dFP",
+   "reported": 75.0,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 1
+  },
+  {
+   "key": "cic.mean_dFP_per_1000_benign",
+   "reported": 0.22,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 3
+  },
+  {
+   "key": "cic.diff.FP_per_1000_benign.boot_lo",
+   "reported": 0.069,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 3
+  },
+  {
+   "key": "cic.diff.FP_per_1000_benign.boot_hi",
+   "reported": 0.371,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 3
+  },
+  {
+   "key": "cic.diff.FPR.boot_lo",
+   "reported": 6.9e-05,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "cic.diff.FPR.boot_hi",
+   "reported": 0.000371,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "cic.diff.FP_per_1000_benign.d_z",
+   "reported": 1.103,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 3
+  },
+  {
+   "key": "cic.diff.FP_per_1000_benign.t_lo",
+   "reported": -0.028,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 3
+  },
+  {
+   "key": "cic.diff.FP_per_1000_benign.t_hi",
+   "reported": 0.467,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 3,
+   "note": "Corrected in the manuscript on 2 November 2026; the earlier draft printed +0.468, a rounding error."
+  },
+  {
+   "key": "cic.diff.FP_per_1000_benign.t_p",
+   "reported": 0.0691,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 4
+  },
+  {
+   "key": "min_exact_p_value_n5",
+   "reported": 0.0625,
+   "where": "Sections 3.11 and 4.1",
+   "kind": "rounded",
+   "decimals": 4
+  },
+  {
+   "key": "unsw.diff.MCC.mean",
+   "reported": 0.003025,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "unsw.diff.MCC.boot_lo",
+   "reported": 0.001076,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "unsw.diff.MCC.boot_hi",
+   "reported": 0.005099,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "unsw.diff.MCC.d_z",
+   "reported": 1.177,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 3
+  },
+  {
+   "key": "unsw.diff.Recall.mean",
+   "reported": 0.004411,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "unsw.diff.Recall.boot_lo",
+   "reported": 0.00191,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "unsw.diff.Recall.boot_hi",
+   "reported": 0.006913,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "unsw.diff.Recall.d_z",
+   "reported": 1.377,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 3
+  },
+  {
+   "key": "unsw.diff.MCC.n_DAE_higher",
+   "reported": 5,
+   "where": "Section 4.1",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.diff.Recall.n_DAE_higher",
+   "reported": 5,
+   "where": "Section 4.1",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.diff.MCC.t_lo",
+   "reported": -0.000167,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "unsw.diff.MCC.t_hi",
+   "reported": 0.006218,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "unsw.diff.MCC.t_p",
+   "reported": 0.0581,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 4
+  },
+  {
+   "key": "unsw.diff.Recall.t_lo",
+   "reported": 0.000432,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "unsw.diff.Recall.t_hi",
+   "reported": 0.008391,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "unsw.diff.Recall.t_p",
+   "reported": 0.037,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 4
+  },
+  {
+   "key": "unsw.diff.PR-AUC.mean",
+   "reported": -0.005571,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "unsw.diff.PR-AUC.boot_lo",
+   "reported": -0.012528,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "unsw.diff.PR-AUC.boot_hi",
+   "reported": 0.000499,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 6
+  },
+  {
+   "key": "unsw.diff.PR-AUC.d_z",
+   "reported": -0.665,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 3
+  },
+  {
+   "key": "unsw.diff.PR-AUC.seeds_DAE_higher",
+   "reported": "202, 303",
+   "where": "Section 4.1",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.mean_dTP",
+   "reported": 850.4,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 1
+  },
+  {
+   "key": "unsw.mean_dFP",
+   "reported": 91.0,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 1
+  },
+  {
+   "key": "unsw.mean_dFP_per_1000_benign",
+   "reported": 0.273,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 3
+  },
+  {
+   "key": "unsw.diff.FP_per_1000_benign.boot_lo",
+   "reported": -0.138,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 3
+  },
+  {
+   "key": "unsw.diff.FP_per_1000_benign.boot_hi",
+   "reported": 0.709,
+   "where": "Section 4.1",
+   "kind": "rounded",
+   "decimals": 3
+  },
+  {
+   "key": "unsw.diff.FP_per_1000_benign.n_DAE_higher",
+   "reported": 4,
+   "where": "Section 4.1",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.diff.FPR.boot_hi",
+   "reported": 0.733,
+   "where": "Section 3.11",
+   "kind": "rounded",
+   "decimals": 3,
+   "scale": 1000
+  },
+  {
+   "key": "cic.seed101.dTP",
+   "reported": -4255,
+   "where": "Table 4.2",
+   "kind": "exact"
+  },
+  {
+   "key": "cic.seed101.dFP",
+   "reported": 21,
+   "where": "Table 4.2",
+   "kind": "exact"
+  },
+  {
+   "key": "cic.seed101.state",
+   "reported": "III",
+   "where": "Table 4.2",
+   "kind": "exact"
+  },
+  {
+   "key": "cic.seed202.dTP",
+   "reported": -667,
+   "where": "Table 4.2",
+   "kind": "exact"
+  },
+  {
+   "key": "cic.seed202.dFP",
+   "reported": 153,
+   "where": "Table 4.2",
+   "kind": "exact"
+  },
+  {
+   "key": "cic.seed202.state",
+   "reported": "III",
+   "where": "Table 4.2",
+   "kind": "exact"
+  },
+  {
+   "key": "cic.seed303.dTP",
+   "reported": -2230,
+   "where": "Table 4.2",
+   "kind": "exact"
+  },
+  {
+   "key": "cic.seed303.dFP",
+   "reported": 37,
+   "where": "Table 4.2",
+   "kind": "exact"
+  },
+  {
+   "key": "cic.seed303.state",
+   "reported": "III",
+   "where": "Table 4.2",
+   "kind": "exact"
+  },
+  {
+   "key": "cic.seed404.dTP",
+   "reported": -780,
+   "where": "Table 4.2",
+   "kind": "exact"
+  },
+  {
+   "key": "cic.seed404.dFP",
+   "reported": 19,
+   "where": "Table 4.2",
+   "kind": "exact"
+  },
+  {
+   "key": "cic.seed404.state",
+   "reported": "III",
+   "where": "Table 4.2",
+   "kind": "exact"
+  },
+  {
+   "key": "cic.seed505.dTP",
+   "reported": -2713,
+   "where": "Table 4.2",
+   "kind": "exact"
+  },
+  {
+   "key": "cic.seed505.dFP",
+   "reported": 145,
+   "where": "Table 4.2",
+   "kind": "exact"
+  },
+  {
+   "key": "cic.seed505.state",
+   "reported": "III",
+   "where": "Table 4.2",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.seed101.dTP",
+   "reported": 217,
+   "where": "Table 4.2",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.seed101.dFP",
+   "reported": 171,
+   "where": "Table 4.2",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.seed101.state",
+   "reported": "II",
+   "where": "Table 4.2",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.seed202.dTP",
+   "reported": 1472,
+   "where": "Table 4.2",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.seed202.dFP",
+   "reported": -136,
+   "where": "Table 4.2",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.seed202.state",
+   "reported": "I",
+   "where": "Table 4.2",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.seed303.dTP",
+   "reported": 385,
+   "where": "Table 4.2",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.seed303.dFP",
+   "reported": 60,
+   "where": "Table 4.2",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.seed303.state",
+   "reported": "II",
+   "where": "Table 4.2",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.seed404.dTP",
+   "reported": 1541,
+   "where": "Table 4.2",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.seed404.dFP",
+   "reported": 353,
+   "where": "Table 4.2",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.seed404.state",
+   "reported": "II",
+   "where": "Table 4.2",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.seed505.dTP",
+   "reported": 637,
+   "where": "Table 4.2",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.seed505.dFP",
+   "reported": 7,
+   "where": "Table 4.2",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.seed505.state",
+   "reported": "II",
+   "where": "Table 4.2",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.seed101.rho_star",
+   "reported": 1.269,
+   "where": "Table 4.2; Section 4.4",
+   "kind": "rounded",
+   "decimals": 3
+  },
+  {
+   "key": "unsw.seed303.rho_star",
+   "reported": 6.417,
+   "where": "Table 4.2; Section 4.4",
+   "kind": "rounded",
+   "decimals": 3
+  },
+  {
+   "key": "unsw.seed404.rho_star",
+   "reported": 4.365,
+   "where": "Table 4.2; Section 4.4",
+   "kind": "rounded",
+   "decimals": 3
+  },
+  {
+   "key": "unsw.seed505.rho_star",
+   "reported": 91.0,
+   "where": "Table 4.2; Section 4.4",
+   "kind": "rounded",
+   "decimals": 3
+  },
+  {
+   "key": "cic.paths.n_I",
+   "reported": 0,
+   "where": "Table 4.3",
+   "kind": "exact"
+  },
+  {
+   "key": "cic.paths.pct_I",
+   "reported": 0.0,
+   "where": "Table 4.3",
+   "kind": "rounded",
+   "decimals": 2
+  },
+  {
+   "key": "cic.paths.n_II",
+   "reported": 0,
+   "where": "Table 4.3",
+   "kind": "exact"
+  },
+  {
+   "key": "cic.paths.pct_II",
+   "reported": 0.0,
+   "where": "Table 4.3",
+   "kind": "rounded",
+   "decimals": 2
+  },
+  {
+   "key": "cic.paths.n_III",
+   "reported": 3125,
+   "where": "Table 4.3",
+   "kind": "exact"
+  },
+  {
+   "key": "cic.paths.pct_III",
+   "reported": 100.0,
+   "where": "Table 4.3",
+   "kind": "rounded",
+   "decimals": 2
+  },
+  {
+   "key": "cic.paths.n_IV",
+   "reported": 0,
+   "where": "Table 4.3",
+   "kind": "exact"
+  },
+  {
+   "key": "cic.paths.pct_IV",
+   "reported": 0.0,
+   "where": "Table 4.3",
+   "kind": "rounded",
+   "decimals": 2
+  },
+  {
+   "key": "unsw.paths.n_I",
+   "reported": 356,
+   "where": "Table 4.3",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.paths.pct_I",
+   "reported": 11.39,
+   "where": "Table 4.3",
+   "kind": "rounded",
+   "decimals": 2
+  },
+  {
+   "key": "unsw.paths.n_II",
+   "reported": 2769,
+   "where": "Table 4.3",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.paths.pct_II",
+   "reported": 88.61,
+   "where": "Table 4.3",
+   "kind": "rounded",
+   "decimals": 2
+  },
+  {
+   "key": "unsw.paths.n_III",
+   "reported": 0,
+   "where": "Table 4.3",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.paths.pct_III",
+   "reported": 0.0,
+   "where": "Table 4.3",
+   "kind": "rounded",
+   "decimals": 2
+  },
+  {
+   "key": "unsw.paths.n_IV",
+   "reported": 0,
+   "where": "Table 4.3",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.paths.pct_IV",
+   "reported": 0.0,
+   "where": "Table 4.3",
+   "kind": "rounded",
+   "decimals": 2
+  },
+  {
+   "key": "unsw.paths.total",
+   "reported": 3125,
+   "where": "Table 4.3",
+   "kind": "exact"
+  },
+  {
+   "key": "cic.paths.total",
+   "reported": 3125,
+   "where": "Table 4.3",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.paths.with_202.n_I",
+   "reported": 356,
+   "where": "Section 4.3",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.paths.without_202.n",
+   "reported": 1024,
+   "where": "Section 4.3",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.paths.without_202.n_II",
+   "reported": 1024,
+   "where": "Section 4.3",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.rho_mean",
+   "reported": 9.345,
+   "where": "Section 4.4",
+   "kind": "rounded",
+   "decimals": 3
+  },
+  {
+   "key": "unsw.rho_star.min",
+   "reported": 1.269,
+   "where": "Section 4.4",
+   "kind": "rounded",
+   "decimals": 3
+  },
+  {
+   "key": "unsw.rho_star.max",
+   "reported": 91.0,
+   "where": "Section 4.4",
+   "kind": "rounded",
+   "decimals": 3
+  },
+  {
+   "key": "unsw.rho_star.fold_range",
+   "reported": 71.7,
+   "where": "Section 4.4",
+   "kind": "rounded",
+   "decimals": 1
+  },
+  {
+   "key": "unsw.map.0.000_1.269.DAE_count",
+   "reported": 5,
+   "where": "Table 4.4",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.map.0.000_1.269.DAE_seeds",
+   "reported": "101, 202, 303, 404, 505",
+   "where": "Table 4.4",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.map.1.269_4.365.DAE_count",
+   "reported": 4,
+   "where": "Table 4.4",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.map.1.269_4.365.DAE_seeds",
+   "reported": "202, 303, 404, 505",
+   "where": "Table 4.4",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.map.4.365_6.417.DAE_count",
+   "reported": 3,
+   "where": "Table 4.4",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.map.4.365_6.417.DAE_seeds",
+   "reported": "202, 303, 505",
+   "where": "Table 4.4",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.map.6.417_91.000.DAE_count",
+   "reported": 2,
+   "where": "Table 4.4",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.map.6.417_91.000.DAE_seeds",
+   "reported": "202, 505",
+   "where": "Table 4.4",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.map.91.000_inf.DAE_count",
+   "reported": 1,
+   "where": "Table 4.4",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.map.91.000_inf.DAE_seeds",
+   "reported": "202",
+   "where": "Table 4.4",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.mcnemar.seed101.net_DAE_gain",
+   "reported": 46,
+   "where": "Section 4.5",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.mcnemar.seed202.net_DAE_gain",
+   "reported": 1608,
+   "where": "Section 4.5",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.mcnemar.seed303.net_DAE_gain",
+   "reported": 325,
+   "where": "Section 4.5",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.mcnemar.seed404.net_DAE_gain",
+   "reported": 1188,
+   "where": "Section 4.5",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.mcnemar.seed505.net_DAE_gain",
+   "reported": 630,
+   "where": "Section 4.5",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.mcnemar.seed101.p",
+   "reported": 0.49,
+   "where": "Section 4.5",
+   "kind": "rounded",
+   "decimals": 2
+  },
+  {
+   "key": "unsw.mcnemar.seed202.p",
+   "reported": 3.1e-07,
+   "where": "Section 4.5",
+   "kind": "at_most"
+  },
+  {
+   "key": "unsw.mcnemar.seed303.p",
+   "reported": 3.1e-07,
+   "where": "Section 4.5",
+   "kind": "at_most"
+  },
+  {
+   "key": "unsw.mcnemar.seed404.p",
+   "reported": 3.1e-07,
+   "where": "Section 4.5",
+   "kind": "at_most"
+  },
+  {
+   "key": "unsw.mcnemar.seed505.p",
+   "reported": 3.1e-07,
+   "where": "Section 4.5",
+   "kind": "at_most"
+  },
+  {
+   "key": "cic.mcnemar.seed101.net_DAE_gain",
+   "reported": -4276,
+   "where": "Section 4.5",
+   "kind": "exact"
+  },
+  {
+   "key": "cic.mcnemar.seed101.p",
+   "reported": 1e-41,
+   "where": "Section 4.5",
+   "kind": "less_than"
+  },
+  {
+   "key": "cic.mcnemar.seed202.net_DAE_gain",
+   "reported": -820,
+   "where": "Section 4.5",
+   "kind": "exact"
+  },
+  {
+   "key": "cic.mcnemar.seed202.p",
+   "reported": 1e-41,
+   "where": "Section 4.5",
+   "kind": "less_than"
+  },
+  {
+   "key": "cic.mcnemar.seed303.net_DAE_gain",
+   "reported": -2267,
+   "where": "Section 4.5",
+   "kind": "exact"
+  },
+  {
+   "key": "cic.mcnemar.seed303.p",
+   "reported": 1e-41,
+   "where": "Section 4.5",
+   "kind": "less_than"
+  },
+  {
+   "key": "cic.mcnemar.seed404.net_DAE_gain",
+   "reported": -799,
+   "where": "Section 4.5",
+   "kind": "exact"
+  },
+  {
+   "key": "cic.mcnemar.seed404.p",
+   "reported": 1e-41,
+   "where": "Section 4.5",
+   "kind": "less_than"
+  },
+  {
+   "key": "cic.mcnemar.seed505.net_DAE_gain",
+   "reported": -2858,
+   "where": "Section 4.5",
+   "kind": "exact"
+  },
+  {
+   "key": "cic.mcnemar.seed505.p",
+   "reported": 1e-41,
+   "where": "Section 4.5",
+   "kind": "less_than"
+  },
+  {
+   "key": "cic.ae.r_FN_median_mean",
+   "reported": 0.0332,
+   "where": "Table 4.5",
+   "kind": "rounded",
+   "decimals": 4
+  },
+  {
+   "key": "cic.ae.r_FN_median_min",
+   "reported": 0.0182,
+   "where": "Table 4.5",
+   "kind": "rounded",
+   "decimals": 4
+  },
+  {
+   "key": "cic.ae.r_FN_median_max",
+   "reported": 0.0441,
+   "where": "Table 4.5",
+   "kind": "rounded",
+   "decimals": 4
+  },
+  {
+   "key": "cic.ae.P_overlap_pct_mean",
+   "reported": 7.15,
+   "where": "Table 4.5",
+   "kind": "rounded",
+   "decimals": 2
+  },
+  {
+   "key": "cic.ae.P_overlap_pct_min",
+   "reported": 4.72,
+   "where": "Table 4.5",
+   "kind": "rounded",
+   "decimals": 2
+  },
+  {
+   "key": "cic.ae.P_overlap_pct_max",
+   "reported": 11.8,
+   "where": "Table 4.5",
+   "kind": "rounded",
+   "decimals": 2
+  },
+  {
+   "key": "cic.dae.r_FN_median_mean",
+   "reported": 0.0294,
+   "where": "Table 4.5",
+   "kind": "rounded",
+   "decimals": 4
+  },
+  {
+   "key": "cic.dae.r_FN_median_min",
+   "reported": 0.0147,
+   "where": "Table 4.5",
+   "kind": "rounded",
+   "decimals": 4
+  },
+  {
+   "key": "cic.dae.r_FN_median_max",
+   "reported": 0.0431,
+   "where": "Table 4.5",
+   "kind": "rounded",
+   "decimals": 4
+  },
+  {
+   "key": "cic.dae.P_overlap_pct_mean",
+   "reported": 10.92,
+   "where": "Table 4.5",
+   "kind": "rounded",
+   "decimals": 2
+  },
+  {
+   "key": "cic.dae.P_overlap_pct_min",
+   "reported": 8.51,
+   "where": "Table 4.5",
+   "kind": "rounded",
+   "decimals": 2
+  },
+  {
+   "key": "cic.dae.P_overlap_pct_max",
+   "reported": 12.5,
+   "where": "Table 4.5",
+   "kind": "rounded",
+   "decimals": 2
+  },
+  {
+   "key": "unsw.ae.r_FN_median_mean",
+   "reported": 0.1767,
+   "where": "Table 4.5",
+   "kind": "rounded",
+   "decimals": 4
+  },
+  {
+   "key": "unsw.ae.r_FN_median_min",
+   "reported": 0.1463,
+   "where": "Table 4.5",
+   "kind": "rounded",
+   "decimals": 4
+  },
+  {
+   "key": "unsw.ae.r_FN_median_max",
+   "reported": 0.2097,
+   "where": "Table 4.5",
+   "kind": "rounded",
+   "decimals": 4
+  },
+  {
+   "key": "unsw.ae.P_overlap_pct_mean",
+   "reported": 0.0,
+   "where": "Table 4.5",
+   "kind": "rounded",
+   "decimals": 2
+  },
+  {
+   "key": "unsw.ae.P_overlap_pct_min",
+   "reported": 0.0,
+   "where": "Table 4.5",
+   "kind": "rounded",
+   "decimals": 2
+  },
+  {
+   "key": "unsw.ae.P_overlap_pct_max",
+   "reported": 0.0,
+   "where": "Table 4.5",
+   "kind": "rounded",
+   "decimals": 2
+  },
+  {
+   "key": "unsw.dae.r_FN_median_mean",
+   "reported": 0.2183,
+   "where": "Table 4.5",
+   "kind": "rounded",
+   "decimals": 4
+  },
+  {
+   "key": "unsw.dae.r_FN_median_min",
+   "reported": 0.1771,
+   "where": "Table 4.5",
+   "kind": "rounded",
+   "decimals": 4
+  },
+  {
+   "key": "unsw.dae.r_FN_median_max",
+   "reported": 0.2433,
+   "where": "Table 4.5",
+   "kind": "rounded",
+   "decimals": 4
+  },
+  {
+   "key": "unsw.dae.P_overlap_pct_mean",
+   "reported": 0.0007,
+   "where": "Table 4.5",
+   "kind": "rounded",
+   "decimals": 4
+  },
+  {
+   "key": "unsw.dae.P_overlap_pct_min",
+   "reported": 0.0,
+   "where": "Table 4.5",
+   "kind": "rounded",
+   "decimals": 4
+  },
+  {
+   "key": "unsw.dae.P_overlap_pct_max",
+   "reported": 0.0016,
+   "where": "Table 4.5",
+   "kind": "rounded",
+   "decimals": 4
+  },
+  {
+   "key": "unsw.dae.max_attacks_below_benign_median_in_any_seed",
+   "reported": 3,
+   "where": "Section 4.6",
+   "kind": "at_most"
+  },
+  {
+   "key": "unsw.ae.max_attacks_below_benign_median_in_any_seed",
+   "reported": 0.0,
+   "where": "Section 4.6",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.seed202.dFP_pct_points_of_FPR",
+   "reported": 0.041,
+   "where": "Section 5.2",
+   "kind": "rounded",
+   "decimals": 3
+  },
+  {
+   "key": "unsw.seed505.dFP_pct_points_of_FPR",
+   "reported": 0.002,
+   "where": "Section 5.2",
+   "kind": "rounded",
+   "decimals": 3
+  },
+  {
+   "key": "unsw.rho_mean_at_pi_0_01",
+   "reported": 0.163,
+   "where": "Section 5.3",
+   "kind": "rounded",
+   "decimals": 3
+  },
+  {
+   "key": "unsw.seed101.rho_star_at_pi_0_01",
+   "reported": 0.022,
+   "where": "Section 5.3",
+   "kind": "rounded",
+   "decimals": 3
+  },
+  {
+   "key": "unsw.seed505.rho_star_at_pi_0_01",
+   "reported": 1.587,
+   "where": "Section 5.3",
+   "kind": "rounded",
+   "decimals": 3
+  },
+  {
+   "key": "unsw.inverse_rho_mean_at_pi_0_01",
+   "reported": 6.1,
+   "where": "Section 5.3",
+   "kind": "rounded",
+   "decimals": 1
+  }
+ ]
+}

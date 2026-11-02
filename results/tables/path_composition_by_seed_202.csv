@@ -1,0 +1,5 @@
+dataset,contains_seed_202,n_paths,n_I,n_II,n_III,n_IV
+CICIDS2017,False,1024,0,0,1024,0
+CICIDS2017,True,2101,0,0,2101,0
+UNSW-NB15,False,1024,0,1024,0,0
+UNSW-NB15,True,2101,356,1745,0,0

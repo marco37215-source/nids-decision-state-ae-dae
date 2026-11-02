@@ -1,0 +1,131 @@
+{
+  "python": "3.13.17",
+  "platform": "Linux-6.18.44-fc-v185-x86_64-with-glibc2.39",
+  "numpy": "2.1.3",
+  "pandas": "2.2.3",
+  "scipy": "1.16.3",
+  "scikit_learn": "1.6.1",
+  "matplotlib": "3.10.0",
+  "inputs": [
+    {
+      "dataset": "CICIDS2017",
+      "model": "AE",
+      "seed": 101,
+      "md5": "97c8fa87ead86f74d76704008d3e9789"
+    },
+    {
+      "dataset": "CICIDS2017",
+      "model": "AE",
+      "seed": 202,
+      "md5": "b453f5e762cd927929cdfe19b5ff59c7"
+    },
+    {
+      "dataset": "CICIDS2017",
+      "model": "AE",
+      "seed": 303,
+      "md5": "388cb2cf68f894d97fd046d9d3612234"
+    },
+    {
+      "dataset": "CICIDS2017",
+      "model": "AE",
+      "seed": 404,
+      "md5": "8bd91de56cd0cad03422599b647aea72"
+    },
+    {
+      "dataset": "CICIDS2017",
+      "model": "AE",
+      "seed": 505,
+      "md5": "c739b9566f4835503f583eb9c76c4257"
+    },
+    {
+      "dataset": "CICIDS2017",
+      "model": "DAE",
+      "seed": 101,
+      "md5": "f74b18b947101eefdec5d36e9868c912"
+    },
+    {
+      "dataset": "CICIDS2017",
+      "model": "DAE",
+      "seed": 202,
+      "md5": "e666bc3877bb48940c92a89295b1801d"
+    },
+    {
+      "dataset": "CICIDS2017",
+      "model": "DAE",
+      "seed": 303,
+      "md5": "968bd8523f756524cb298e82b9aa18e0"
+    },
+    {
+      "dataset": "CICIDS2017",
+      "model": "DAE",
+      "seed": 404,
+      "md5": "65f2c237dbb70c9519f3897b21dba160"
+    },
+    {
+      "dataset": "CICIDS2017",
+      "model": "DAE",
+      "seed": 505,
+      "md5": "3829a2dbefb059446ef49280ad2a58a1"
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "AE",
+      "seed": 101,
+      "md5": "48cf602298ca64cbdedad8d34c640c87"
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "AE",
+      "seed": 202,
+      "md5": "bc99c3076aab5cfa72d997467bd6b80b"
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "AE",
+      "seed": 303,
+      "md5": "eaf69936699249b50ecb519f8cce1ee3"
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "AE",
+      "seed": 404,
+      "md5": "20be79d5c0d90f13ea9e93ac2a686e59"
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "AE",
+      "seed": 505,
+      "md5": "d4d380ad9174175574fe5a15ab1c1e0c"
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "DAE",
+      "seed": 101,
+      "md5": "a893424788cca8e20aafa895402f4eb8"
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "DAE",
+      "seed": 202,
+      "md5": "b26c49bbc0e8dfbd128e6d706a55c63f"
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "DAE",
+      "seed": 303,
+      "md5": "e5ec3a9fa219890ce37bd265e9572116"
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "DAE",
+      "seed": 404,
+      "md5": "3633c4586951d5ebcc20d5649627b5fb"
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "DAE",
+      "seed": 505,
+      "md5": "6e409d573fb7c8f32dd1bea6f41ce909"
+    }
+  ]
+}

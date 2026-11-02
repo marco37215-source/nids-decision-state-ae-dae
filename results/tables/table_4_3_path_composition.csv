@@ -1,0 +1,3 @@
+dataset,total_paths,n_I,pct_I,n_II,pct_II,n_III,pct_III,n_IV,pct_IV,n_tie,pct_tie
+CICIDS2017,3125,0,0.0,0,0.0,3125,100.0,0,0.0,0,0.0
+UNSW-NB15,3125,356,11.392,2769,88.608,0,0.0,0,0.0,0,0.0
