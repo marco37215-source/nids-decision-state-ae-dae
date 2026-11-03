@@ -2,7 +2,7 @@
 
 This repository reproduces the results, tables and figures of the manuscript
 
-> J. M. Kamara, D. M. Kaburu and M. W. Kimwele, "When Model Choice Changes with the Seed: Decision-State Uncertainty and Break-Even Costs in Autoencoder Intrusion Detection", manuscript prepared for submission to *IEEE Journal of Communications and Networks*.
+> J. M. Kamara, D. M. Kaburu and M. W. Kimwele, "When Model Choice Changes with the Seed: Decision-State Uncertainty and Break-Even Costs in Autoencoder Intrusion Detection", manuscript prepared for submission to *Journal of Communications and Networks*.
 
 The manuscript is a secondary decision-analytic analysis. It uses the frozen final-test predictions of a selected autoencoder (AE) and a selected denoising autoencoder (DAE) from Experiment 1 v2 of my MSc research, on CICIDS2017 and UNSW-NB15, under five paired seeds (101, 202, 303, 404, 505). I deposited those predictions on Zenodo. This repository starts from that deposit and recomputes everything the manuscript reports about them.
 
@@ -87,7 +87,7 @@ A CPU runtime is sufficient.
 You need Python 3.11 or later; I tested the code with Python 3.13. You also need about 3 GB of free memory (the reference run peaked at 2.4 GB) and 0.4 GB of disk space for the data.
 
 ```bash
-git clone <this repository's address> && cd <repository folder>
+git clone https://github.com/marco37215-source/nids-decision-state-ae-dae.git && cd nids-decision-state-ae-dae
 python -m venv .venv && source .venv/bin/activate      # on Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
