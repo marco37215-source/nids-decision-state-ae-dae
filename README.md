@@ -2,7 +2,7 @@
 
 This repository reproduces the results, tables and figures of the manuscript
 
-> J. M. Kamara, D. M. Kaburu and M. W. Kimwele, "When Model Choice Changes with the Seed: Decision-State Uncertainty and Break-Even Costs in Autoencoder Intrusion Detection", manuscript prepared for submission to *IEEE Transactions on Network and Service Management*.
+> J. M. Kamara, D. M. Kaburu and M. W. Kimwele, "When Model Choice Changes with the Seed: Decision-State Uncertainty and Break-Even Costs in Autoencoder Intrusion Detection", manuscript prepared for submission to *IEEE Journal of Communications and Networks*.
 
 The manuscript is a secondary decision-analytic analysis. It uses the frozen final-test predictions of a selected autoencoder (AE) and a selected denoising autoencoder (DAE) from Experiment 1 v2 of my MSc research, on CICIDS2017 and UNSW-NB15, under five paired seeds (101, 202, 303, 404, 505). I deposited those predictions on Zenodo. This repository starts from that deposit and recomputes everything the manuscript reports about them.
 
