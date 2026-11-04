@@ -232,3 +232,13 @@ Section 5.3,unsw.rho_mean_at_pi_0_01,0.163,0.1629704272314637,rounded,True
 Section 5.3,unsw.seed101.rho_star_at_pi_0_01,0.022,0.02213046647838041,rounded,True
 Section 5.3,unsw.seed505.rho_star_at_pi_0_01,1.587,1.5869686123045048,rounded,True
 Section 5.3,unsw.inverse_rho_mean_at_pi_0_01,6.1,6.136082582514923,rounded,True
+Section 4.4,unsw.paths.rho_star.min,1.269,1.2690058479532165,rounded,True
+Section 4.4,unsw.paths.rho_star.min_path,"101, 101, 101, 101, 101","101, 101, 101, 101, 101",exact,True
+Section 4.4,unsw.paths.rho_star.max,1268.4,1268.4,rounded,True
+Section 4.4,unsw.paths.rho_star.max_path,"202, 202, 202, 303, 404","202, 202, 202, 303, 404",exact,True
+Section 4.4,unsw.paths.rho_star.max_dTP,6342,6342,exact,True
+Section 4.4,unsw.paths.rho_star.max_dFP,5,5,exact,True
+Section 4.5,cic.mcnemar.discordant_min,3481,3481,exact,True
+Section 4.5,cic.mcnemar.discordant_max,7138,7138,exact,True
+Section 4.5,unsw.mcnemar.discordant_min,4009,4009,exact,True
+Section 4.5,unsw.mcnemar.discordant_max,6808,6808,exact,True
