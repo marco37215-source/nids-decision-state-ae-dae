@@ -76,9 +76,8 @@ I do not redistribute the data in this repository. Download them from Zenodo int
 
 ### Option A: Google Colab (no installation)
 
-1. Open `notebooks/reproduce_manuscript2_colab.ipynb` in Google Colab.
-2. Set `REPO_URL` in the first code cell to the address of this repository.
-3. Run all cells. The notebook downloads the Zenodo record, runs the full reproduction and shows the tables, the figures and the manuscript check.
+1. Open `notebooks/reproduce_manuscript_colab.ipynb` in Google Colab.
+2. Run all cells. The notebook downloads the Zenodo record, runs the full reproduction and shows the tables, the figures and the manuscript check.
 
 A CPU runtime is sufficient.
 
@@ -108,7 +107,7 @@ python scripts/reproduce_all.py --data-dir data/raw
 The run takes about 30 seconds on a two-core machine and should end with:
 
 ```
-233 of 233 manuscript values reproduced.
+243 of 243 manuscript values reproduced.
 All values printed in the manuscript that derive from the deposited predictions were reproduced.
 ```
 
@@ -170,7 +169,7 @@ Table 4.5 reports the mean over seeds and the range across seeds.
 
 ## 6. Verification and determinism
 
-**Check against the manuscript.** `data/manuscript_reported_values.json` lists 233 values exactly as the manuscript prints them, with their location and printed precision. I transcribed them from the manuscript. A value matches when the recomputed number, rounded to the printed precision, equals the printed number. Where the manuscript states a bound (for example *p* < 10⁻⁴¹), the bound is checked instead. The comparison is written to `results/manuscript_comparison.csv`.
+**Check against the manuscript.** `data/manuscript_reported_values.json` lists 243 values exactly as the manuscript prints them, with their location and printed precision. I transcribed them from the manuscript. A value matches when the recomputed number, rounded to the printed precision, equals the printed number. Where the manuscript states a bound (for example *p* < 10⁻⁴¹), the bound is checked instead. The comparison is written to `results/manuscript_comparison.csv`.
 
 **A correction found by this check.** The first run found one value that did not match: the upper limit of the paired *t* interval for the CICIDS2017 false-positive difference. The draft printed +0.468 FP per 1,000; the recomputed value is +0.4675, which rounds to +0.467. I corrected the manuscript to +0.467. The entry in `manuscript_reported_values.json` records this correction.
 
@@ -191,7 +190,7 @@ I also ran the code with newer libraries: NumPy 2.5.3, pandas 3.0.5, SciPy 1.18.
 │   ├── manuscript_reported_values.json  # values printed in the manuscript, for the final check
 │   └── raw/                             # place the downloaded Parquet files here (not tracked)
 ├── notebooks/
-│   └── reproduce_manuscript2_colab.ipynb
+│   └── reproduce_manuscript_colab.ipynb
 |   └── colab notebooks of Experiment 1 v2 # produce every artefact in this manuscript
 ├── external_artifacts  # Contains README files with Zenodo links to the 20 externally archived final-test prediction Parquet files.
 ├── scripts/
