@@ -85,6 +85,23 @@ def enumerate_paths(counts: pd.DataFrame) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
+def path_threshold_range(seed_metrics: pd.DataFrame, dataset: str) -> dict:
+    """Range of the path-level break-even thresholds over the State II paths (Section 4.4).
+
+    For every enumerated path in State II I compute rho*_pi = dTP_sum / dFP_sum and
+    report the smallest and largest value with the paths that attain them. These are
+    properties of the constructed path space, not of any trained realisation.
+    """
+    paths = enumerate_paths(seed_counts(seed_metrics, dataset))
+    tr = paths[paths.state == "II"].copy()
+    tr["rho_star"] = [Fraction(int(a), int(b)) for a, b in zip(tr.dTP_sum, tr.dFP_sum)]
+    lo = tr.loc[tr.rho_star.idxmin()]
+    hi = tr.loc[tr.rho_star.idxmax()]
+    return dict(n_II=len(tr), min=float(lo.rho_star), min_path=tuple(sorted(lo.path)),
+                max=float(hi.rho_star), max_path=tuple(sorted(hi.path)),
+                max_dTP=int(hi.dTP_sum), max_dFP=int(hi.dFP_sum))
+
+
 def table_4_3(seed_metrics: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
     """Table 4.3: decision-state composition of the 3,125 enumerated paths, plus the seed-202 breakdown."""
     comp, detail = [], []

@@ -194,6 +194,19 @@ def collect_values(sm, t41, effects, t42, t43, t43_detail, t44, unsw_counts, cic
         v[f"unsw.map.{r.rho_lower:.3f}_{r.rho_upper:.3f}.DAE_count"] = r.DAE_preference_count
         v[f"unsw.map.{r.rho_lower:.3f}_{r.rho_upper:.3f}.DAE_seeds"] = r.DAE_preferred_seeds
     v["min_exact_p_value_n5"] = paired_stats.minimum_exact_p_value(5)
+    # Path-level break-even range over the enumerated State II paths (Section 4.4).
+    ptr = decision.path_threshold_range(sm, "UNSW-NB15")
+    v["unsw.paths.rho_star.min"] = ptr["min"]
+    v["unsw.paths.rho_star.min_path"] = ", ".join(str(x) for x in ptr["min_path"])
+    v["unsw.paths.rho_star.max"] = ptr["max"]
+    v["unsw.paths.rho_star.max_path"] = ", ".join(str(x) for x in ptr["max_path"])
+    v["unsw.paths.rho_star.max_dTP"] = ptr["max_dTP"]
+    v["unsw.paths.rho_star.max_dFP"] = ptr["max_dFP"]
+    # Discordant-pair totals of the McNemar tests (Section 4.5).
+    for ds, k in (("CICIDS2017", "cic"), ("UNSW-NB15", "unsw")):
+        g = mcn[mcn.dataset == ds]
+        v[f"{k}.mcnemar.discordant_min"] = int(g.discordant_total.min())
+        v[f"{k}.mcnemar.discordant_max"] = int(g.discordant_total.max())
     return v
 
 

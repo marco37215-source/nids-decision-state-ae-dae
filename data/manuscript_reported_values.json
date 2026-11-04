@@ -1547,6 +1547,68 @@
    "where": "Section 5.3",
    "kind": "rounded",
    "decimals": 1
+  },
+  {
+   "key": "unsw.paths.rho_star.min",
+   "reported": 1.269,
+   "where": "Section 4.4",
+   "kind": "rounded",
+   "decimals": 3
+  },
+  {
+   "key": "unsw.paths.rho_star.min_path",
+   "reported": "101, 101, 101, 101, 101",
+   "where": "Section 4.4",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.paths.rho_star.max",
+   "reported": 1268.4,
+   "where": "Section 4.4",
+   "kind": "rounded",
+   "decimals": 1
+  },
+  {
+   "key": "unsw.paths.rho_star.max_path",
+   "reported": "202, 202, 202, 303, 404",
+   "where": "Section 4.4",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.paths.rho_star.max_dTP",
+   "reported": 6342,
+   "where": "Section 4.4",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.paths.rho_star.max_dFP",
+   "reported": 5,
+   "where": "Section 4.4",
+   "kind": "exact"
+  },
+  {
+   "key": "cic.mcnemar.discordant_min",
+   "reported": 3481,
+   "where": "Section 4.5",
+   "kind": "exact"
+  },
+  {
+   "key": "cic.mcnemar.discordant_max",
+   "reported": 7138,
+   "where": "Section 4.5",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.mcnemar.discordant_min",
+   "reported": 4009,
+   "where": "Section 4.5",
+   "kind": "exact"
+  },
+  {
+   "key": "unsw.mcnemar.discordant_max",
+   "reported": 6808,
+   "where": "Section 4.5",
+   "kind": "exact"
   }
  ]
 }
